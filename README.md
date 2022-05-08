@@ -2,7 +2,7 @@ Pimp My Meal
 
 In Pimp My Meal haben Kunden die Möglichkeit, Gerichte
 nach ihrer individuellen Erwartungen zu kreiieren und 
-zu bestelen.
+zu bestelen:
 
 Das Projekt wird wie folgt umgesetzt:
 -Kunden können etweder fertiges Gericht oder 
