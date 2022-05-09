@@ -13,10 +13,10 @@ name: Java CI with Gradle
 
       steps:
       - uses: actions/checkout@v2
-      - name: Set up JDK 17
+      - name: Set up JDK 16
         uses: actions/set-up@v2
         with:
-          java-version: '17'
+          java-version: '16'
           distribution: 'adopt'
       - name: Grant execute permission for gradlew
         run: chmod +x gradlew
