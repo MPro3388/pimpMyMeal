@@ -1,4 +1,4 @@
-Pimp My Meal
+heroku logoutPimp My Meal
 
 In Pimp My Meal haben Kunden die Möglichkeit, Gerichte
 nach ihrer individuellen Erwartungen zu kreiieren und 
