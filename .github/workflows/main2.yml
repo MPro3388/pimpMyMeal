@@ -1,9 +1,11 @@
 name: Deploy
 
   on:
-    push:
-      branches:
-        - main2
+    workflow_run:
+      workflows: [ "Java CI with Gradle" ]
+      branches: [ main2 ]
+      types:
+        - completed
   jobs:
     build:
       runs-on: ubuntu-latest
