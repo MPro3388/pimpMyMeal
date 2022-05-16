@@ -15,16 +15,21 @@ import java.util.Optional;
         @Column(name = "name", nullable = false)
         private String name;
 
-        @Column(name="price")
+        @Column(name = "price")
         private int price;
 
-        public Product(Object id, Object name, Object price){}
+        public Product(Object id, Object name, Object price) {
+        }
 
 
         public Product(Long id, String name, int price) {
             this.id = id;
             this.name = name;
             this.price = price;
+        }
+
+        public Product() {
+
         }
 
         public Long getId() {
@@ -39,13 +44,19 @@ import java.util.Optional;
             this.name = name;
         }
 
-        public String getName(){return name;}
+        public String getName() {
+            return name;
+        }
 
-        public int getPrice(){return price;}
+        public int getPrice() {
+            return price;
+        }
+
         public void setPrice(int price) {
             this.price = price;
         }
 
         public void setOwner(String email) {
         }
+
 }
